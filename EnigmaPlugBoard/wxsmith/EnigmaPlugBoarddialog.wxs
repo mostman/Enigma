@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EnigmaPlugBoardDialog">
+		<title>Enigma Plugboard</title>
+		<id_arg>0</id_arg>
+		<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+			<cols>1</cols>
+			<rows>4</rows>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerrPBQ" member="no">
+							<label>Q</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBQ" variable="ChPBQ" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBQSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBW" member="no">
+							<label>W</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBW" variable="ChPBW" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBWSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBE" member="no">
+							<label>E</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBE" variable="ChPBE" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBESet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBR" member="no">
+							<label>R</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBR" variable="ChPBR" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBRSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBT" member="no">
+							<label>T</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBT" variable="ChPBT" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+										<item>-1</item>
+									</content>
+									<handler function="OnChPBTSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBZ" member="no">
+							<label>Z</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBZ" variable="ChPBZ" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBZSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBU" member="no">
+							<label>U</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBU" variable="ChPBU" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBUSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBI" member="no">
+							<label>I</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBI" variable="ChPBI" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBISet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBO" member="no">
+							<label>O</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBO" variable="ChPBO" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBOSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>2</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerrPBA" member="no">
+							<label>A</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBA" variable="ChPBA" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBASet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerrPBS" member="no">
+							<label>S</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBS" variable="ChPBS" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBSSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBD" member="no">
+							<label>D</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBD" variable="ChPBD" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBDSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBF" member="no">
+							<label>F</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBF" variable="ChPBF" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBFSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBG" member="no">
+							<label>G</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBG" variable="ChPBG" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBGSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBH" member="no">
+							<label>H</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBH" variable="ChPBH" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBHSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBJ" member="no">
+							<label>J</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBJ" variable="ChPBJ" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBJSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBK" member="no">
+							<label>K</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBK" variable="ChPBK" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBKSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>2</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBP" member="no">
+							<label>P</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBP" variable="ChPBP" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBPSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBY" member="no">
+							<label>Y</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBY" variable="ChPBY" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBYSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBX" member="no">
+							<label>X</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBX" variable="ChPBX" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBXSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBC" member="no">
+							<label>C</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBC" variable="ChPBC" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBCSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBV" member="no">
+							<label>V</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBV" variable="ChPBV" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBVSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBB" member="no">
+							<label>B</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBB" variable="ChPBB" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBBSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBN" member="no">
+							<label>N</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBN" variable="ChPBN" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBNSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBM" member="no">
+							<label>M</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBM" variable="ChPBM" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBMSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticBoxSizer" variable="StaticBoxSizerPBL" member="no">
+							<label>L</label>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHPBL" variable="ChPBL" member="yes">
+									<content>
+										<item>A</item>
+										<item>B</item>
+										<item>C</item>
+										<item>D</item>
+										<item>E</item>
+										<item>F</item>
+										<item>G</item>
+										<item>H</item>
+										<item>I</item>
+										<item>J</item>
+										<item>K</item>
+										<item>L</item>
+										<item>M</item>
+										<item>N</item>
+										<item>O</item>
+										<item>P</item>
+										<item>Q</item>
+										<item>R</item>
+										<item>S</item>
+										<item>T</item>
+										<item>U</item>
+										<item>V</item>
+										<item>W</item>
+										<item>X</item>
+										<item>Y</item>
+										<item>Z</item>
+									</content>
+									<handler function="OnChPBLSet" entry="EVT_CHOICE" />
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>2</border>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BTNPHRESET" variable="BtnPBReset" member="yes">
+							<label>Reset</label>
+							<handler function="OnBtnPBReset" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BTNCLOSE" variable="BtnClose" member="yes">
+							<label>Close</label>
+							<handler function="OnBtnClose" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXTPLUGSCON" variable="StaticTextPlugsCon" member="yes">
+							<label>Connections:</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxStaticText" name="ID_STATICTEXTPLUGSCOUNT" variable="StaticTextPlugsCount" member="yes">
+							<label>0</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>2</border>
+			</object>
+		</object>
+	</object>
+</wxsmith>
