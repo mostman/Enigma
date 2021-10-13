@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="EnigmaSettingsDialog">
+		<title>Enigma Settings</title>
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+					<orient>wxVERTICAL</orient>
+					<object class="sizeritem">
+						<object class="wxBoxSizer" variable="BoxSizer3" member="no">
+							<object class="sizeritem">
+								<object class="wxBoxSizer" variable="BoxSizer4" member="no">
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxStaticBoxSizer" variable="StaticBoxSizerReflector" member="no">
+											<label>Reflector</label>
+											<object class="sizeritem">
+												<object class="wxChoice" name="ID_CHREFLECTOR" variable="ChReflector" member="yes">
+													<content>
+														<item>UKW-B</item>
+														<item>UKW-C</item>
+													</content>
+													<selection>0</selection>
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+											</object>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>2</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXTRINGSETTING" variable="StaticTextRingSetting" member="yes">
+											<label>Ring Setting</label>
+										</object>
+										<flag>wxALL|wxALIGN_LEFT</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxStaticText" name="ID_STATICTEXTROTORPOS" variable="StaticTextRotorPosition" member="yes">
+											<label>Initial Position</label>
+										</object>
+										<flag>wxALL|wxALIGN_LEFT</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer1" member="no">
+									<label>3rd Rotor</label>
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHROTORC" variable="ChRotorC" member="yes">
+											<content>
+												<item>I</item>
+												<item>II</item>
+												<item>III</item>
+												<item>IV</item>
+												<item>V</item>
+												<item>VI</item>
+												<item>VII</item>
+												<item>VIII</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHRINGC" variable="ChRingC" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHOFFSETC" variable="ChOffSetC" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>2</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer2" member="no">
+									<label>2nd Rotor</label>
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHROTORB" variable="ChRotorB" member="yes">
+											<content>
+												<item>I</item>
+												<item>II</item>
+												<item>III</item>
+												<item>IV</item>
+												<item>V</item>
+												<item>VI</item>
+												<item>VII</item>
+												<item>VIII</item>
+											</content>
+											<selection>1</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHRINGB" variable="ChRingB" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHOFFSETB" variable="ChOffSetB" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>2</border>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer3" member="no">
+									<label>1st Rotor</label>
+									<orient>wxVERTICAL</orient>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHROTORA" variable="ChRotorA" member="yes">
+											<content>
+												<item>I</item>
+												<item>II</item>
+												<item>III</item>
+												<item>IV</item>
+												<item>V</item>
+												<item>VI</item>
+												<item>VII</item>
+												<item>VIII</item>
+											</content>
+											<selection>2</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHRINGA" variable="ChRingA" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHOFFSETA" variable="ChOffSetA" member="yes">
+											<content>
+												<item>A</item>
+												<item>B</item>
+												<item>C</item>
+												<item>D</item>
+												<item>E</item>
+												<item>F</item>
+												<item>G</item>
+												<item>H</item>
+												<item>I</item>
+												<item>J</item>
+												<item>K</item>
+												<item>L</item>
+												<item>M</item>
+												<item>N</item>
+												<item>O</item>
+												<item>P</item>
+												<item>Q</item>
+												<item>R</item>
+												<item>S</item>
+												<item>T</item>
+												<item>U</item>
+												<item>V</item>
+												<item>W</item>
+												<item>X</item>
+												<item>Y</item>
+												<item>Z</item>
+											</content>
+											<selection>0</selection>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>2</border>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>2</border>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_BTNCLOSESETTINGS" variable="BtnCloseSettings" member="yes">
+							<label>Close</label>
+							<handler function="OnBtnCloseSettings" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>2</border>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>
